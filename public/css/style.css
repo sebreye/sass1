@@ -1,3 +1,27 @@
+body {
+  margin: 0;
+}
 
+header div {
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar div img {
+  height: 70px;
+}
+.navbar .page-nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar .page-nav li {
+  margin: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
