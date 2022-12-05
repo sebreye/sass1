@@ -10,6 +10,7 @@ header div {
 
 .navbar {
   display: flex;
+  justify-content: center;
   justify-content: space-around;
 }
 .navbar div img {
@@ -27,18 +28,40 @@ header div {
 .titre1 {
   display: flex;
   justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .para1 {
   margin-left: 25vh;
   margin-right: 25vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .partie2 {
   text-align: center;
+  margin-bottom: 10vh;
 }
 
 .para2 {
   margin-left: 25vh;
   margin-right: 25vh;
+  margin-bottom: 15vh;
+}
+
+footer {
+  height: 200px;
+  background-color: grey;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+}
+footer div ul {
+  display: flex;
+  list-style: none;
+}
+footer div ul li {
+  margin: 20px;
 }/*# sourceMappingURL=style.css.map */
